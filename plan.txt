@@ -1,0 +1,29 @@
+game is a grid
+each square in grid can be one thing (consumable, snake head/snake body, wall/obsticle)
+
+class tree:
+    gosu_rect
+        grid_square
+            obsticle
+                wall
+
+            snake_part
+                snake_head
+
+            consumable
+                food
+                powerup?
+
+            empy_square
+            
+
+    snake: contains list of grid coordinates
+    -- is snake a list?
+    
+    grid: contains 2D-list of grid_squares
+    -- powerup to allow tunnels? 3D-list?
+        -- maybe in the future
+
+    gamepad: easley get user input
+
+
