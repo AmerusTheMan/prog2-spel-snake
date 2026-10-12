@@ -2,19 +2,18 @@ game is a grid
 each square in grid can be one thing (consumable, snake head/snake body, wall/obsticle)
 
 class tree:
-    gosu_rect
-        grid_square
-            obsticle
-                wall
+    grid_square
+        obsticle
+            wall
 
-            snake_part
-                snake_head
+        snake_part
+            snake_head
 
-            consumable
-                food
-                powerup?
+        consumable
+            food
+            powerup?
 
-            empy_square
+        empy_square
             
 
     snake: contains list of grid coordinates
